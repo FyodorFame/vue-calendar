@@ -9,6 +9,12 @@
 <script>
 import Calendar from './components/Calendar';
 
+const temp = () => ({
+  user: null
+})
+
+console.log('temp call ', temp())
+
 export default {
   name: 'App',
 
@@ -17,7 +23,7 @@ export default {
   },
 
   data: () => ({
-    //
+    user: null
   }),
 };
 </script>
